@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Button</title>
+    <title>Welcome</title>
 </head>
 <body>
     <h2>CatPhotoApp</h2>
@@ -27,7 +27,7 @@
     <li>other cats</li>
   </ol>
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" placeholder="cat photo URL" required>
+    <input type="text" placeholder="cat photo URL" required><br>
 
     <label for="indoor">
         <input type="radio" name="indoor-outdoor">Indoor
@@ -35,6 +35,19 @@
         <label for="outdoor">
         <input type="radio" name="indoor-outdoor">Outdoor
     </label>
+    <br>
+
+
+    <label for="black">
+        <input type="checkbox" name="personality">Black
+    </label>
+    <label for="white">
+        <input type="checkbox" name="personality">White
+    </label>
+    <label for="brown">
+        <input type="checkbox" name="personality">Brown
+    </label>
+    <br>
 
     <button type="submit">Submit</button>
   </form>
